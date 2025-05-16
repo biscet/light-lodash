@@ -5,6 +5,7 @@ import importPlugin  from 'eslint-plugin-import';
 import nodePlugin    from 'eslint-plugin-n';      
 import promisePlugin from 'eslint-plugin-promise';
 import sonarjsPlugin from 'eslint-plugin-sonarjs';
+import globals from 'globals';
 import 'eslint-plugin-only-warn';                
 
 export default [
@@ -16,6 +17,9 @@ export default [
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module'
+      },
+      globals: {
+        ...globals.node
       }
     },
     plugins: {
