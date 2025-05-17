@@ -20,4 +20,14 @@ interface CxParams {
 }
 declare function cx({ defaultClass, activeClass, nonActiveClass, condition }: CxParams): string;
 
-export { cx, get, intersection, isArray, isEmpty, isObject, isString };
+declare function cloneDeep<T>(value: T): T;
+
+declare function uniq<T>(array: readonly T[]): T[];
+
+declare function merge<T extends object, U extends object>(target: T, source: U): T & U;
+
+declare function throttle<F extends (...args: unknown[]) => void>(fn: F, wait: number): (...args: Parameters<F>) => void;
+
+declare function omit<T extends Record<string, unknown>, K extends keyof T>(obj: T, keys: readonly K[]): Omit<T, K>;
+
+export { cloneDeep, cx, get, intersection, isArray, isEmpty, isObject, isString, merge, omit, throttle, uniq };
