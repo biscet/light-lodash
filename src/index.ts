@@ -10,3 +10,4 @@ export * from './chunks/uniq';
 export * from './chunks/merge';
 export * from './chunks/throttle';
 export * from './chunks/omit';
+export * from './chunks/flattenDeep';
