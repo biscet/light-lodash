@@ -5,3 +5,4 @@ export * from './chunks/isObject';
 export * from './chunks/isArray';
 export * from './chunks/intersection';
 export * from './chunks/cx';
+export * from './chunks/cloneDeep';

@@ -211,5 +211,16 @@ fn();
 
 ```
 
+### cloneDeep
+Глубоко копирует объекты, массивы, Date, Map, Set, RegExp.
+
+Пример использования:
+```js
+const original = { a: { b: [1, 2] } };
+const copy = cloneDeep(original);
+copy.a.b.push(3);
+// original остаётся { a: { b: [1, 2] } }
+```
+
 # Лицензия MIT
 
