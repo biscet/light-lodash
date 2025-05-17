@@ -6,3 +6,7 @@ export * from './chunks/isArray';
 export * from './chunks/intersection';
 export * from './chunks/cx';
 export * from './chunks/cloneDeep';
+export * from './chunks/uniq';
+export * from './chunks/merge';
+export * from './chunks/throttle';
+export * from './chunks/omit';

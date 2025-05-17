@@ -22,6 +22,11 @@ export default [
         ...globals.node
       }
     },
+     settings: {
+      node: {
+        version: '>=14.0.0'
+      }
+    },
     plugins: {
       '@typescript-eslint': tsPlugin,
       import: importPlugin,
