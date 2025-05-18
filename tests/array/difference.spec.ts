@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { difference } from '../src/chunks/difference';
+import { difference } from '../../src';
 
 describe('difference', () => {
   it('возвращает уникальные элементы первого массива', () => {

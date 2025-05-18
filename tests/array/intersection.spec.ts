@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { intersection } from '../src/chunks/intersection';
+import { intersection } from '../../src';
 
 describe('intersection', () => {
   it('находит общие элементы', () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pickBy } from '../src/chunks/pickBy';
+import { pickBy } from '../../src';
 
 describe('pickBy', () => {
   it('фильтрует falsy-значения', () => {

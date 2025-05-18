@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { cloneDeep } from '../src/chunks/cloneDeep';
+import { cloneDeep } from '../../src';
 
 describe('cloneDeep', () => {
   it('создаёт глубокую копию объектов', () => {

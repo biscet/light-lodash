@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { uniq } from '../src/chunks/uniq';
+import { uniq } from '../../src';
 
 describe('uniq', () => {
   it('убирает дубликаты', () => {

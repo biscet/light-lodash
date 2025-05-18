@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isString } from '../src/chunks/isString';
+import { isString } from '../../src';
 
 describe('isString', () => {
   it('распознаёт обычные строки и String-объекты', () => {

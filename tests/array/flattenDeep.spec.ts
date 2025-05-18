@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { flattenDeep } from '../src/chunks/flattenDeep';
+import { flattenDeep } from '../../src';
 
 describe('flattenDeep', () => {
   it('корректно разворачивает многослойные массивы', () => {

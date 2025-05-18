@@ -1,5 +1,5 @@
 import { describe, it, vi, expect } from 'vitest';
-import { throttle } from '../src/chunks/throttle';
+import { throttle } from '../../src';
 
 describe('throttle', () => {
   it('не даёт вызвать функцию чаще указанного интервала', () => {

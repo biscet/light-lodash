@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { has } from '../src/chunks/has';
+import { has } from '../../src';
 
 describe('has', () => {
   const obj = { a: { b: 2 }, c: 3 };

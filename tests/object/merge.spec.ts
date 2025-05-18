@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { merge } from '../src/chunks/merge';
+import { merge } from '../../src';
 
 describe('merge', () => {
   it('глубоко объединяет объекты', () => {

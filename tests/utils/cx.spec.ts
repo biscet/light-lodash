@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { cx } from '../src/chunks/cx';
+import { cx } from '../../src';
 
 describe('cx', () => {
   it('возвращает activeClass при условии true', () => {

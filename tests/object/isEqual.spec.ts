@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isEqual } from '../src/chunks/isEqual';
+import { isEqual } from '../../src';
 
 describe('isEqual', () => {
   it('глубокое равенство plain-объектов', () => {

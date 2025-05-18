@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isArray } from '../src/chunks/isArray';
+import { isArray } from '../../src';
 
 describe('isArray', () => {
   it('true только для массивов', () => {

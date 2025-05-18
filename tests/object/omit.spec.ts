@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { omit } from '../src/chunks/omit';
+import { omit } from '../../src';
 
 describe('omit', () => {
   it('исключает указанные ключи', () => {

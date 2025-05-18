@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { debounce } from '../src/chunks/debounce';
+import { debounce } from '../../src';
 
 describe('debounce', () => {
   it('вызывает функцию один раз после задержки', () => {

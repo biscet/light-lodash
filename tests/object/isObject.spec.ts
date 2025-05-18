@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isObject } from '../src/chunks/isObject';
+import { isObject } from '../../src';
 
 describe('isObject', () => {
   it('распознаёт обычные объекты', () => {
